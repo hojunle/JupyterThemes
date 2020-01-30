@@ -1,0 +1,9 @@
+#reset theme
+!jt -r
+
+#set dark mode theme
+!jt -t onedork
+
+#install jupyter themese
+import sys
+!{sys.executable} -m pip install jupyterthemes
